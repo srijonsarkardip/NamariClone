@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
 *,*:before,*:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -630,7 +632,6 @@ a img {
     -moz-transition: all .3s ease-out;
     -o-transition: all .3s ease-out;
     transition: all .3s ease-out;
-    -webkit-backface-visibility: hidden
 }
 
 a img:hover {
@@ -864,7 +865,6 @@ blockquote {
 
 #gallery a:hover img {
     opacity: .15;
-    -moz-backface-visibility: hidden
 }
 
 #gallery a:before {

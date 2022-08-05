@@ -1,30 +1,35 @@
+$acent-color1: #d2b356;
+$acent-color2: #111111;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+$main-font: Open-sans;
 
 body {
     background: #fff
 }
 
 a,.la-ball-triangle-path {
-    color: #d2b356;
+    color: $acent-color1;
 }
 
 a:hover,#header.nav-solid nav a:hover {
-    color: #d2b356;
+    color: $acent-color1;
 }
 
 .icon i {
-    color: #d2b356;
+    color: $acent-color1;
 }
 
 #banner .section-heading:before,.testimonial.classic footer:before {
-    background: #d2b356;
+    background: $acent-color1;
 }
 
 .pricing-block-content:hover {
-    border-color: #d2b356;
+    border-color: $acent-color1;
 }
 
 #header nav a,#header i {
-    color: #111
+    color: $acent-color2;
 }
 
 #header.nav-solid,#header.nav-solid a,#header.nav-solid i,#nav-mobile ul li a {
@@ -32,12 +37,12 @@ a:hover,#header.nav-solid nav a:hover {
 }
 
 #header.nav-solid .active {
-    color: #d2b356;
-    border-color: #d2b356;
+    color: $acent-color1;
+    border-color: $acent-color1;
 }
 
 .primary-color,.featured .pricing {
-    background-color: #d2b356;
+    background-color: $acent-color1;
 }
 
 .primary-color,.primary-color .section-title,.primary-color .section-subtitle,.featured .pricing,.featured .pricing p {
@@ -45,7 +50,7 @@ a:hover,#header.nav-solid nav a:hover {
 }
 
 .section-heading h2:after {
-    background: #d2b356;
+    background: $acent-color1;
     content: "";
     display: block;
     width: 30px;
@@ -71,122 +76,122 @@ a:hover,#header.nav-solid nav a:hover {
 }
 
 body {
-    font-family: open sans,sans-serif,Arial,Helvetica;
+    font-family: $main-font;
     font-size: 15px;
     font-weight: 400;
-    color: #111
+    color: $acent-color2;
 }
 
 #banner h1 {
-    font-family: open sans,sans-serif,Arial,Helvetica;
+    font-family: $main-font;
     font-size: 62px;
     line-height: 60px;
     font-weight: 800;
-    color: #111
+    color: $acent-color2;
 }
 
 #banner h2 {
-    font-family: open sans,sans-serif,Arial,Helvetica;
+    font-family: $main-font;
     font-size: 18px;
     font-weight: 300;
-    color: #111
+    color: $acent-color2;
 }
 
 .section-title {
-    font-family: open sans,sans-serif,Arial,Helvetica;
+    font-family: $main-font;
     font-size: 34px;
     font-weight: 700;
-    color: #111
+    color: $acent-color2;
 }
 
 .section-subtitle {
-    font-family: open sans,sans-serif,Arial,Helvetica;
+    font-family: $main-font;
     font-size: 16px;
     font-weight: 300;
     color: #9c9c9c
 }
 
 .testimonial q {
-    font-family: open sans,sans-serif,Arial,Helvetica;
+    font-family: $main-font;
     font-size: 17px;
     font-weight: 300
 }
 
 .testimonial.classic q,.testimonial.classic footer {
-    color: #111
+    color: $acent-color2;
 }
 
 h1 {
     font-family: open sans,sans-serif,Arial,Helvetica;
     font-size: 40px;
     font-weight: 300;
-    color: #111
+    color: $acent-color2;
 }
 
 h2 {
     font-family: open sans,sans-serif,Arial,Helvetica;
     font-size: 34px;
     font-weight: 300;
-    color: #111
+    color: $acent-color2;
 }
 
 h3 {
     font-family: open sans,sans-serif,Arial,Helvetica;
     font-size: 30px;
     font-weight: 700;
-    color: #111
+    color: $acent-color2;
 }
 
 h4 {
     font-family: open sans,sans-serif,Arial,Helvetica;
     font-size: 18px;
     font-weight: 400;
-    color: #111
+    color: $acent-color2;
 }
 
 h5 {
     font-family: open sans,sans-serif,Arial,Helvetica;
     font-size: 16px;
     font-weight: 400;
-    color: #111
+    color: $acent-color2;
 }
 
 h6 {
     font-family: open sans,sans-serif,Arial,Helvetica;
     font-size: 14px;
     font-weight: 400;
-    color: #111
+    color: $acent-color2;
 }
 
 .button,input[type=submit] {
     font-family: open sans,sans-serif,Arial,Helvetica;
     font-size: 14px;
     font-weight: 700;
-    color: #111
+    color: $acent-color2;
 }
 
 .button,input[type=submit] {
-    border-color: #111
+    border-color: $acent-color2;
 }
 
 .button:hover,input[type=submit]:hover {
-    border-color: #d2b356;
-    color: #d2b356;
+    border-color: $acent-color1;
+    color: $acent-color1;
 }
 
 #banner .button {
     font-family: open sans,sans-serif,Arial,Helvetica;
     font-size: 16px;
-    color: #111
+    color: $acent-color2;
 }
 
 #banner .button {
-    border-color: #111
+    border-color: $acent-color2;
 }
 
 #banner .button:hover {
-    color: #d2b356;
-    border-color: #d2b356;
+    color: $acent-color1;
+    border-color: $acent-color1;
 }
 
 #landing-footer,#landing-footer p,#landing-footer a {
