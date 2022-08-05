@@ -1,6 +1,8 @@
 $acent-color1: #d2b356;
 $acent-color2: #111111;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 
+$main-font: Open-sans;
 
 body {
     background: #fff
@@ -74,14 +76,14 @@ a:hover,#header.nav-solid nav a:hover {
 }
 
 body {
-    font-family: open sans,sans-serif,Arial,Helvetica;
+    font-family: $main-font;
     font-size: 15px;
     font-weight: 400;
     color: $acent-color2;
 }
 
 #banner h1 {
-    font-family: open sans,sans-serif,Arial,Helvetica;
+    font-family: $main-font;
     font-size: 62px;
     line-height: 60px;
     font-weight: 800;
@@ -89,28 +91,28 @@ body {
 }
 
 #banner h2 {
-    font-family: open sans,sans-serif,Arial,Helvetica;
+    font-family: $main-font;
     font-size: 18px;
     font-weight: 300;
     color: $acent-color2;
 }
 
 .section-title {
-    font-family: open sans,sans-serif,Arial,Helvetica;
+    font-family: $main-font;
     font-size: 34px;
     font-weight: 700;
     color: $acent-color2;
 }
 
 .section-subtitle {
-    font-family: open sans,sans-serif,Arial,Helvetica;
+    font-family: $main-font;
     font-size: 16px;
     font-weight: 300;
     color: #9c9c9c
 }
 
 .testimonial q {
-    font-family: open sans,sans-serif,Arial,Helvetica;
+    font-family: $main-font;
     font-size: 17px;
     font-weight: 300
 }
