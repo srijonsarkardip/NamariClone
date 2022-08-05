@@ -1,4 +1,5 @@
-$acent-color1: $acent-color1;
+$acent-color1: #d2b356;
+$acent-color2: #111111;
 
 
 body {
@@ -26,7 +27,7 @@ a:hover,#header.nav-solid nav a:hover {
 }
 
 #header nav a,#header i {
-    color: #111
+    color: $acent-color2;
 }
 
 #header.nav-solid,#header.nav-solid a,#header.nav-solid i,#nav-mobile ul li a {
@@ -68,7 +69,7 @@ a:hover,#header.nav-solid nav a:hover {
 }
 
 #banner {
-    background: url("/img/banner-image-1.JPG") no-repeat center top;
+    background: url("/NamariClone/img/banner-image-1.JPG") no-repeat center top;
     background-size: cover
 }
 
@@ -76,7 +77,7 @@ body {
     font-family: open sans,sans-serif,Arial,Helvetica;
     font-size: 15px;
     font-weight: 400;
-    color: #111
+    color: $acent-color2;
 }
 
 #banner h1 {
@@ -84,21 +85,21 @@ body {
     font-size: 62px;
     line-height: 60px;
     font-weight: 800;
-    color: #111
+    color: $acent-color2;
 }
 
 #banner h2 {
     font-family: open sans,sans-serif,Arial,Helvetica;
     font-size: 18px;
     font-weight: 300;
-    color: #111
+    color: $acent-color2;
 }
 
 .section-title {
     font-family: open sans,sans-serif,Arial,Helvetica;
     font-size: 34px;
     font-weight: 700;
-    color: #111
+    color: $acent-color2;
 }
 
 .section-subtitle {
@@ -115,60 +116,60 @@ body {
 }
 
 .testimonial.classic q,.testimonial.classic footer {
-    color: #111
+    color: $acent-color2;
 }
 
 h1 {
     font-family: open sans,sans-serif,Arial,Helvetica;
     font-size: 40px;
     font-weight: 300;
-    color: #111
+    color: $acent-color2;
 }
 
 h2 {
     font-family: open sans,sans-serif,Arial,Helvetica;
     font-size: 34px;
     font-weight: 300;
-    color: #111
+    color: $acent-color2;
 }
 
 h3 {
     font-family: open sans,sans-serif,Arial,Helvetica;
     font-size: 30px;
     font-weight: 700;
-    color: #111
+    color: $acent-color2;
 }
 
 h4 {
     font-family: open sans,sans-serif,Arial,Helvetica;
     font-size: 18px;
     font-weight: 400;
-    color: #111
+    color: $acent-color2;
 }
 
 h5 {
     font-family: open sans,sans-serif,Arial,Helvetica;
     font-size: 16px;
     font-weight: 400;
-    color: #111
+    color: $acent-color2;
 }
 
 h6 {
     font-family: open sans,sans-serif,Arial,Helvetica;
     font-size: 14px;
     font-weight: 400;
-    color: #111
+    color: $acent-color2;
 }
 
 .button,input[type=submit] {
     font-family: open sans,sans-serif,Arial,Helvetica;
     font-size: 14px;
     font-weight: 700;
-    color: #111
+    color: $acent-color2;
 }
 
 .button,input[type=submit] {
-    border-color: #111
+    border-color: $acent-color2;
 }
 
 .button:hover,input[type=submit]:hover {
@@ -179,11 +180,11 @@ h6 {
 #banner .button {
     font-family: open sans,sans-serif,Arial,Helvetica;
     font-size: 16px;
-    color: #111
+    color: $acent-color2;
 }
 
 #banner .button {
-    border-color: #111
+    border-color: $acent-color2;
 }
 
 #banner .button:hover {
