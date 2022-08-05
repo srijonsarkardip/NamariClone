@@ -1,8 +1,8 @@
 $acent-color1: #d2b356;
 $acent-color2: #111111;
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700&display=swap');
+$font-default: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, -apple-system;
 
-$main-font: Open-sans;
 
 body {
     background: #fff
@@ -76,7 +76,7 @@ a:hover,#header.nav-solid nav a:hover {
 }
 
 body {
-    font-family: $main-font;
+    font-family: $font-default
     font-size: 15px;
     font-weight: 400;
     color: $acent-color2;
